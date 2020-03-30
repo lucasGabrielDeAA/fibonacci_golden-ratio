@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0f0f5;
+  font: 400 14px Ubuntu, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button {
+  font: 400 18px Ubuntu, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input {
+  border: solid 1px #dcdcd6;
+  border-radius: 8px;
+  color: #333333;
+  height: 60px;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.title {
+  color: #333333;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.subtitle {
+  color: #333333;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#container {
+  padding: 0 24px;
+  margin: 0 auto;
+  width: 980px;
+}
+
+#content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 0;
+  width: 100%;
+}
+
+.button {
+  align-items: center;
+  background: #8620e0;
+  border: 0;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  height: 60px;
+  justify-content: center;
+  margin-top: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: filter 0.2s;
+  width: 100%;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+#fibonacci {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#fibonacci p {
+  margin: 12px 0;
+}
+
+#fibonacci div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#golden_ratio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
