@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Math calculators</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <p class="title">Math calculators</p>
+        <form>
+          <div id="fibonacci">
+            <p class="subtitle">Fibonacci</p>
+
+            <div>
+              <input id="step_input" type="text" placeholder="Fibonacci Step" />
+              <button class="button" id="calculate_fibonacci">Calculate Fibonacci</button>
+            </div>
+          </div>
+      
+          <div id="golden_ratio">
+            <p class="subtitle">Golden Ratio</p>
+
+            <div>
+              <input id="segment_length_input" type="text" placeholder="Whole segment(a + b)" />
+              <button class="button" id="calculate_golden_ratio">Calculate Golden Ratio</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./fibonacci.js"></script>
+  </body>
+</html>
