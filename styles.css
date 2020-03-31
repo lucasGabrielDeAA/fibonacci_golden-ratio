@@ -46,16 +46,26 @@ form input {
 
 #container {
   padding: 0 24px;
-  margin: 0 auto;
+  margin: 64px auto;
   width: 980px;
 }
 
 #content {
+  background: #DDDDDD;
+  border-radius: 8px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 64px 0;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 64px 32px;
+}
+
+#content form {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -80,24 +90,20 @@ form input {
   filter: brightness(90%);
 }
 
-#fibonacci {
+#calculator {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-#fibonacci p {
+#calculator p {
   margin: 12px 0;
 }
 
-#fibonacci div {
+#calculator div {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-}
-
-#golden_ratio {
-  display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
+  width: 100%;
 }
